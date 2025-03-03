@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Ziyi Yang's homepage</title>
+
+  <meta name="author" content="Ziyi Yang">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Ziyi Yang (杨子逸)</name>
+              </p>
+              <p>- My name is Ziyi Yang. I am a second-year MS student (expected to graduate in 2026) at Sun Yat-sen University, advised by [Prof. Xiaojun Quan](https://sites.google.com/site/xiaojunquan/). Before this, I received my Bachelor's degree (2019-2023, computer science and technology) from Sun Yat-sen University. My main research interests focus on heterogeneous model fusion and preference optimization algorithm.
+                </p>
+              <p style="text-align:center">
+                  <a href="yanzy39@mail2.sysu.edu.cn">Email</a>  /
+                  <a href="images/mycv.pdf">CV</a>  /
+                  <a href="https://scholar.google.com/citations?user=AeS1tmEAAAAJ&hl=zh-CN">Google Scholar</a>  /
+                  <a href="https://github.com/yangzy39">GitHub</a>  /
+		  <a href="https://huggingface.co/AALF">HF</a>  /
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/yangziyi.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/fanqiwan.jpg" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <p>
+                  My main research interests focus on heterogeneous **model fusion** (e.g., combining the strengths of multiple large language models (LLMs) with diverse structures/scales) and **preference optimization** algorithm (e.g., DPO, SimPO). Representative papers are <span class="highlight">highlighted</span>.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+    <tr>
+      <td colspan="2" style="padding:20px;text-align:left;font-weight:bold;background-color:#ffffff;">
+        Model Fusion
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <img src="images/wrpo.png" alt="PontTuset" width="160" style="border-style: none">
+      </td>
+      <td width="75%" valign="middle">
+        <a href="https://arxiv.org/abs/2412.03187" id="conf_wrpo">
+          <papertitle><span class="highlight">Weighted-Reward Preference Optimization for Implicit Model Fusion</span></papertitle>
+        </a>
+        <br>
+	<strong>Ziyi Yang</strong>,
+        Fanqi Wan,
+	Longguang Zhong,
+	Tianyuan Shi,
+	Xiaojun Quan
+        <br>
+        <em>ICLR</em>, 2025
+        <br>
+        <a href="https://github.com/yangzy39/WRPO">[GitHub]</a>
+        /
+	<a href="https://huggingface.co/datasets/AALF/ultrafeedback_wrpo">[HF]</a>
+        /
+        <a href="https://arxiv.org/abs/2412.03187">[Paper]</a>
+	/
+	<a href="https://huggingface.co/papers?date=2024-12-05">[HF Daily Papers]</a>
+        <p></p>
+        <p>We propose an implicit fusion method, Weighted-Reward Preference Optimization (WRPO), which leverages preference optimization between the source LLMs and the target LLM to transfer their capabilities effectively. WRPO achieves <strong>a LC Win Rate of 55.9% against GPT-4-Preview-1106 on AlpacaEval-2 and a Win Rate of 46.2% against GPT-4-0314 on Arena-Hard</strong>.</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <img src="images/FuseChat-3.0.png" alt="PontTuset" width="160" style="border-style: none">
+      </td>
+      <td width="75%" valign="middle">
+        <a href="https://arxiv.org/abs/2412.03187" id="conf_wrpo">
+          <papertitle><span class="highlight">FuseChat-3.0: Preference Optimization Meets Heterogeneous Model Fusion</span></papertitle>
+        </a>
+        <br>
+	<strong>Ziyi Yang</strong>,
+        Fanqi Wan,
+	Longguang Zhong,
+	Canbin Huang,
+    Guosheng Liang,
+	Xiaojun Quan
+        <br>
+        <em>Tech Report</em>, 2025
+        <br>
+        <a href="https://github.com/yangzy39/FuseChat-3.0">[GitHub]</a>
+        /
+	<a href="https://huggingface.co/collections/FuseAI/fusechat-30-6752d18dec430bad7a236a75">[HF]</a>
+        /
+	<a href="https://mp.weixin.qq.com/s/xI_GLkO0eskwayV_TveuUg">[魔搭社区]</a>
+	/
+	<a href="https://slit-ai.github.io/FuseChat-3.0/">[Blog]</a>
+        <p></p>
+        <p>We introduce FuseChat-3.0, a suite of large language models (LLMs) developed by integrating the strengths of heterogeneous source LLMs into more compact target LLMs. Using Llama-3.1-8B-Instruct as the target model, our fusion approach achieves an average improvement of 6.8 points across 14 benchmarks.</p>
+      </td>
+    </tr>
+	
+    <tr>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <img src="images/fusechat.png" alt="PontTuset" width="160" style="border-style: none">
+      </td>
+      <td width="75%" valign="middle">
+        <a href="https://arxiv.org/abs/2408.07990" id="conf_fusechat">
+          <papertitle>FuseChat: Knowledge Fusion of Chat Models</papertitle>
+        </a>
+        <br>
+        Fanqi Wan,
+	Longguang Zhong,
+	<strong>Ziyi Yang</strong>,
+	Ruijun Chen,
+	Xiaojun Quan
+        <br>
+        <em>Tech Report</em>, 2024
+        <br>
+        <a href="https://github.com/fanqiwan/FuseLLM">[GitHub]</a>
+        /
+	<a href="https://huggingface.co/collections/Wanfq/fusechat-20-66bf3462c55655c7152e4e23">[HF]</a>
+        /
+        <a href="https://arxiv.org/abs/2408.07990">[Paper]</a>
+	/
+        <a href="https://twitter.com/_akhaliq/status/1762344073820578145">[Featured by AK]</a>
+	/
+	<a href="https://huggingface.co/papers?date=2024-02-27">[HF Daily Papers]</a>
+	/
+        <a href="https://mp.weixin.qq.com/s/wD9uP33jTZX5jINadcn8IQ">[机器之心]</a>
+        /
+        	<a href="https://github.com/arcee-ai/mergekit/blob/main/mergekit/merge_methods/sce.py">[mergekit]</a>
+        <p></p>
+        <p>We propose FuseChat, an extended framework of FuseLLM to integrate the collective knowledge and individual strengths of multiple structure- and scale-varied chat LLMs into a more powerful chat LLM. FuseChat-7B is <strong>comparable to the larger Mixtral-8x7B-Instruct and and approaches GPT-3.5-Turbo-1106</strong> on MT-Bench.</p>
+      </td>
+    </tr>
+
+    </tbody></table>
+
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr>
+      <td style="padding:20px;width:100%;vertical-align:middle">
+        <heading>Education</heading>
+        <p>
+          MS Student in Computer Technology, <strong>Sun Yat-sen University</strong> (2023.09-2026.06).
+        </p>
+        <p>
+          Bachelor of Computer Science and Technology, <strong>Sun Yat-sen University</strong> (2019.09-2023.06).
+        </p>
+      </td>
+    </tr>
+    </tbody></table>
+
+
+<!--  </tbody></table>-->
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr>
+      <td style="padding:0px">
+        <br>
+        <p style="text-align:right;font-size:small;">
+          Website's code is from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.
+          
+        </p>
+      </td>
+    </tr>
+  </tbody></table>
+</td>
+</tr>
+  </tbody></table>
+</body>
+
+</html>
