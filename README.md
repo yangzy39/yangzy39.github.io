@@ -1,7 +1,5 @@
 ## Hi there 👋
 
-
-Here are some ideas to get you started:
 My name is **Ziyi Yang (杨子逸)**. You can call me Ziyi.
 
 - 🌱 I’m currently learning at Sun Yat-sen University as a second-year MS student (expected to graduate in 2026), advised by [Prof. Xiaojun Quan](https://sites.google.com/site/xiaojunquan/). Before this, I received my Bachelor's degree (2019-2023, computer science and technology) from Sun Yat-sen University.
