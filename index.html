@@ -51,10 +51,73 @@
     
     <tr>
       <td colspan="2" style="padding:20px;text-align:left;font-weight:bold;background-color:#ffffff;">
-        Knowledge Fusion & Preference Learning
+        Self-Play & Self-Improvement
       </td>
     </tr>
-	    
+
+	<tr>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <img src="images/spell.png" alt="PontTuset" width="160" style="border-style: none">
+      </td>
+      <td width="75%" valign="middle">
+        <a href="https://arxiv.org/pdf/2509.xxxxx" id="conf_mutual">
+          <papertitle>SPELL: Self-Play Reinforcement Learning for evolving Long-Context Language Models</papertitle>
+        </a>
+        <br>
+			<strong>Ziyi Yang</strong>,
+			Weizhou Shen, 
+			Ruijun Chen,
+			Chenliang Li,
+			Fanqi Wan
+			Xiaojun Quan,
+			Ming Yan,
+			Fei Huang
+        <br>
+        <strong>Preprint</strong> , 2025
+        <br>
+        <a href="https://arxiv.org/pdf/2509.xxxxx">[Paper]</a>
+        <p></p>
+        <p>We propose SPELL, a self-play reinforcement learning framework that enhances the long-context reasoning of LLMs without human supervision. In our framework, a single model autonomously improves by cyclically adopting three roles: a questioner to generate tasks, a responder to solve them, and a verifier to provide reward signals. This creates a self-sufficient curriculum that allows a base model to surpass its instruction-tuned counterpart and <strong>achieves an average 7.6-point gain on the strong reasoning model Qwen3-30B-A3B-Thinking</strong>.</p>
+      </td>
+    </tr>
+		
+    <tr>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <img src="images/mutual.png" alt="PontTuset" width="160" style="border-style: none">
+      </td>
+      <td width="75%" valign="middle">
+        <a href="https://arxiv.org/pdf/2505.14183" id="conf_mutual">
+          <papertitle>Mutual-Taught for Co-adapting Policy and Reward Models</papertitle>
+        </a>
+        <br>
+	Tianyuan Shi,
+	Canbin Huang, 
+	Fanqi Wa,
+	Longguang Zhong, 
+	<strong>Ziyi Yang</strong>,
+	Weizhou Shen, 
+	Xiaojun Quan,
+	Ming Yan
+        <br>
+        <strong>ACL Main</strong> , 2025
+        <br>
+        <a href="https://arxiv.org/pdf/2505.14183">[Paper]</a>
+        <p></p>
+        <p>We propose Mutual-Taught, a self-training method that iteratively improves both the policy model and reward model without requiring additional human annotation. Our approach mirrors the expectation-maximization (EM) algorithm. Experimental results demonstrate that this iterative approach leads to <strong>consistent improvements in both models</strong>.</p>
+      </td>
+    </tr>
+
+
+	</tbody></table>
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+		
+    <tr>
+      <td colspan="2" style="padding:20px;text-align:left;font-weight:bold;background-color:#ffffff;">
+        Model Fusion (Implicit & Explicit)
+      </td>
+    </tr>
+		
     <tr>
       <td style="padding:20px;width:25%;vertical-align:middle">
         <img src="images/wrpo.png" alt="PontTuset" width="160" style="border-style: none">
@@ -115,32 +178,6 @@
         <p>We introduce FuseChat-3.0, a suite of large language models (LLMs) developed by integrating the strengths of heterogeneous source LLMs into more compact target LLMs. Using Llama-3.1-8B-Instruct as the target model, our fusion approach achieves <strong>an average improvement of 6.8 points across 14 benchmarks</strong>.</p>
       </td>
     </tr>
-
-    <tr>
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <img src="images/mutual.png" alt="PontTuset" width="160" style="border-style: none">
-      </td>
-      <td width="75%" valign="middle">
-        <a href="https://openreview.net/forum?id=IT2H83KYpc&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2F2025%2FConference%2FAuthors%23your-submissions)" id="conf_mutual">
-          <papertitle>Mutual-Taught for Co-adapting Policy and Reward Models</papertitle>
-        </a>
-        <br>
-	Tianyuan Shi,
-	Canbin Huang, 
-	Fanqi Wa,
-	Longguang Zhong, 
-	<strong>Ziyi Yang</strong>,
-	Weizhou Shen, 
-	Xiaojun Quan,
-	Ming Yan
-        <br>
-        <strong>ACL Main</strong> , 2025
-        <br>
-        <a href="https://arxiv.org/pdf/2506.06292">[Paper]</a>
-        <p></p>
-        <p>We propose Mutual-Taught, a self-training method that iteratively improves both the policy model and reward model without requiring additional human annotation. Our approach mirrors the expectation-maximization (EM) algorithm. Experimental results demonstrate that this iterative approach leads to <strong>consistent improvements in both models</strong>.</p>
-      </td>
-    </tr>
 	    
     <tr>
       <td style="padding:20px;width:25%;vertical-align:middle">
@@ -196,13 +233,45 @@
         <p>We propose FuseChat, an extended framework of FuseLLM to integrate the collective knowledge and individual strengths of multiple structure- and scale-varied chat LLMs into a more powerful chat LLM. FuseChat-7B is <strong>comparable to the larger Mixtral-8x7B-Instruct and and approaches GPT-3.5-Turbo-1106</strong> on MT-Bench.</p>
       </td>
     </tr>
+		
+	<tr>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <img src="images/fuseo1.png" alt="PontTuset" width="160" style="border-style: none">
+      </td>
+      <td width="75%" valign="middle">
+        <a href="https://huggingface.co/blog/Wanfq/fuseo1-preview" id="conf_fuseo1">
+          <papertitle>FuseO1-Preview: System-II Reasoning Fusion of LLMs</papertitle>
+        </a>
+        <br>
+        Fanqi Wan,
+	Longguang Zhong,
+	<strong>Ziyi Yang</strong>,
+	Weizhou Shen,
+	Xinting Huang
+        <br>
+        <em>Tech Report</em>, 2025
+        <br>
+        <a href="https://github.com/fanqiwan/FuseAI/tree/main/FuseO1-Preview">[GitHub]</a>
+        /
+	<a href="https://huggingface.co/collections/Wanfq/fuseo1-preview-678eb7c76c337bdf15edef4c">[HF]</a>
+        /
+        <a href="https://huggingface.co/blog/Wanfq/fuseo1-preview">[Blog]</a>
+	/
+	<a href="https://www.reddit.com/r/LocalLLaMA/comments/1i81pbk/this_merge_is_amazing/">[r/LocalLLaMA]</a>
+	/
+	<a href="https://github.com/arcee-ai/mergekit">[Mergekit]</a>
+        <p></p>
+        <p>FuseO1-Preview is our initial endeavor to enhance the System-II reasoning capabilities of large language models (LLMs) through innovative model fusion techniques. <strong>The resulted FuseO1-DeepSeekR1-QwQ-SkyT1-32B-Preview achieves a Pass@1 accuracy of 74.0 on AIME24, demonstrating significant performance improvements compared to the OpenAI o1-preview (44.6) and OpenAI o1-mini (63.4), even approaching OpenAI o1 (79.2)</strong>.</p>
+      </td>
+    </tr>
+	
     </tbody></table>
 
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     
     <tr>
       <td colspan="2" style="padding:20px;text-align:left;font-weight:bold;background-color:#ffffff;">
-        Large Reasoning Models & Reinforcement Learning
+        Long-Context Reinforcement Learning
       </td>
     </tr>
 
@@ -242,6 +311,16 @@
       </td>
     </tr>
 
+	</tbody></table>
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+		
+	<tr>
+      <td colspan="2" style="padding:20px;text-align:left;font-weight:bold;background-color:#ffffff;">
+        Large Reasoning Models & Adaptive Thinking
+      </td>
+    </tr>
+		
     <tr>
       <td style="padding:20px;width:25%;vertical-align:middle">
         <img src="images/thinkswitcher.png" alt="PontTuset" width="160" style="border-style: none">
@@ -263,38 +342,6 @@
         <p>we propose ThinkSwitcher, a framework that enables a single LRM to dynamically switch between short and long CoT modes based on task complexity. ThinkSwitcher <strong>reduces computational cost by 20–30%</strong> while maintaining high accuracy on complex tasks.</p>
       </td>
     </tr>
-
-    <tr>
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <img src="images/fuseo1.png" alt="PontTuset" width="160" style="border-style: none">
-      </td>
-      <td width="75%" valign="middle">
-        <a href="https://huggingface.co/blog/Wanfq/fuseo1-preview" id="conf_fuseo1">
-          <papertitle>FuseO1-Preview: System-II Reasoning Fusion of LLMs</papertitle>
-        </a>
-        <br>
-        Fanqi Wan,
-	Longguang Zhong,
-	<strong>Ziyi Yang</strong>,
-	Weizhou Shen,
-	Xinting Huang
-        <br>
-        <em>Tech Report</em>, 2025
-        <br>
-        <a href="https://github.com/fanqiwan/FuseAI/tree/main/FuseO1-Preview">[GitHub]</a>
-        /
-	<a href="https://huggingface.co/collections/Wanfq/fuseo1-preview-678eb7c76c337bdf15edef4c">[HF]</a>
-        /
-        <a href="https://huggingface.co/blog/Wanfq/fuseo1-preview">[Blog]</a>
-	/
-	<a href="https://www.reddit.com/r/LocalLLaMA/comments/1i81pbk/this_merge_is_amazing/">[r/LocalLLaMA]</a>
-	/
-	<a href="https://github.com/arcee-ai/mergekit">[Mergekit]</a>
-        <p></p>
-        <p>FuseO1-Preview is our initial endeavor to enhance the System-II reasoning capabilities of large language models (LLMs) through innovative model fusion techniques. <strong>The resulted FuseO1-DeepSeekR1-QwQ-SkyT1-32B-Preview achieves a Pass@1 accuracy of 74.0 on AIME24, demonstrating significant performance improvements compared to the OpenAI o1-preview (44.6) and OpenAI o1-mini (63.4), even approaching OpenAI o1 (79.2)</strong>.</p>
-      </td>
-    </tr>
-
 	    
     </tbody></table>
 
